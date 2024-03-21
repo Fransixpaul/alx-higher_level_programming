@@ -4,4 +4,4 @@ def magic_calculation(a, b):
     result += a
     result **= b
 
-    return(result)
+    return result
