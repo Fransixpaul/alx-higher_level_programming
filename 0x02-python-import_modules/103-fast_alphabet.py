@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 import string
-print(*getattr(string, "ascii_uppercase"), sep='')
+print(bytes(getattr(string, 'ascii_uppercase'), 'utf-8').decode('utf-8'))
