@@ -4,7 +4,10 @@ def best_score(a_dictionary):
         return None
 
     max_score = max(a_dictionary.values())
-    best_keys = [key for key, value in a_dictionary.items()
-    if value == max_score]
+    best_keys = []
+
+    for key, value in a_dictionary.items():
+        if value == max_score:
+            best_keys.append(key)
 
     return best_keys[0]
