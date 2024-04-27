@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 class Square:
-    """ This class represents 
-    an empty square
     """
-    pass
+    Defones a square. 
+
+    Attributes:
+    - No attributes defined at the moment.
+    """
