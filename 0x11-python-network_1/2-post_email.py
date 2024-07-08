@@ -1,16 +1,14 @@
 #!/usr/bin/python3
-
+"""
+Main function to send a POST request to a given URL with an email
+as a parameter and print the response body decoded in utf-8.
+"""
 import sys
 import urllib.parse
 import urllib.request
 
 
 def main():
-    """
-    Main function to send a POST request to a given URL with an email
-    as a parameter and print the response body decoded in utf-8.
-    """
-
     url = sys.argv[1]
     email = sys.argv[2]
 
