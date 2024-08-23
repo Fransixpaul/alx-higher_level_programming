@@ -52,7 +52,7 @@ def Queen(m_queen, nqueen):
         print_result(m_queen, nqueen)
         return
 
-    m_queen[nqueen] = -1
+    m_queen[nqueen] = - 1
 
     while((m_queen[nqueen] < len(m_queen) - 1)):
 
